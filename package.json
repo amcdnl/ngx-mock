@@ -1,0 +1,34 @@
+{
+  "name": "ngx-mock",
+  "version": "1.0.0",
+  "description": "Mock utilities for Angular",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://amcdnl@github.com/amcdnl/ngx-mock.git"
+  },
+  "keywords": [
+    "angular",
+    "mock",
+    "testing"
+  ],
+  "author": "Austin McDaniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amcdnl/ngx-mock/issues"
+  },
+  "homepage": "https://github.com/amcdnl/ngx-mock#readme",
+  "dependencies": {
+    "path-to-regexp": "^2.1.0"
+  },
+  "peerDependencies": {
+    "angular-in-memory-web-api": "^0.5.3"
+  },
+  "devDependencies": {
+    "angular-in-memory-web-api": "^0.5.3",
+    "typescript": "^2.7.1"
+  }
+}
