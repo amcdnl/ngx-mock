@@ -20,7 +20,11 @@ export function matchRoute(ctrl) {
             if (path) {
                 const keys = [];
                 const re = pathToRegexp(path, keys);
-                const match = re.test(req.url);
+
+                // strip query params
+                const [url] = req.url.split('?');
+                const match = re.test(url);
+
                 if (match) {
                     if (method === type) {
                         // attach our mapped params to the reqinfo
