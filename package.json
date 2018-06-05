@@ -1,6 +1,6 @@
 {
   "name": "ngx-mock",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Mock utilities for Angular",
   "main": "index.js",
   "scripts": {
@@ -22,13 +22,13 @@
   },
   "homepage": "https://github.com/amcdnl/ngx-mock#readme",
   "dependencies": {
-    "path-to-regexp": "^2.1.0"
+    "path-to-regexp": "^2.2.1"
   },
   "peerDependencies": {
     "angular-in-memory-web-api": "^0.5.3"
   },
   "devDependencies": {
-    "angular-in-memory-web-api": "^0.5.3",
+    "angular-in-memory-web-api": "^0.6.0",
     "typescript": "^2.7.1"
   }
 }
